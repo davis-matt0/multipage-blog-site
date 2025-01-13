@@ -80,6 +80,7 @@ li,
 .footer-title {
   font-size: 0.75rem;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 .copyright {
@@ -192,12 +193,58 @@ footer {
   display: none;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 1000px) {
   .hide {
     display: none;
   }
 
   .hidden {
     display: block;
+  }
+
+  .logo {
+    width: 34.25px;
+    height: 34.25px;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .featured-post-date,
+  li {
+    font-size: 1rem;
+  }
+
+  .featured-post-title {
+    font-size: 2.5rem;
+  }
+
+  .featured-post-preview {
+    max-width: 600px;
+  }
+
+  .featured-post {
+    padding: 17.5em 5em 3em;
+    background-position: center;
+    margin-bottom: 4em;
+  }
+
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+  }
+
+  .post-title {
+    margin-top: 0.5em;
+  }
+
+  footer {
+    margin-top: 5em;
+  }
+
+  .cropped {
+    height: 350px;
   }
 }
