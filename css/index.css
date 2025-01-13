@@ -23,14 +23,34 @@ li,
   font-size: 0.75rem;
 }
 
-.nav-link {
-  text-decoration: none;
+.nav-link,
+.home-link,
+.post-link {
   color: black;
 }
 
 .featured-post-title {
   margin: 0;
   font-size: 2rem;
+}
+
+.featured-post-link,
+.featured-post {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link-focus {
+  text-decoration: underline;
+}
+
+.home-link:hover,
+.home-link:focus {
+  text-decoration: none;
 }
 
 .featured-post-preview {
@@ -74,7 +94,7 @@ header {
   padding: 0 1em;
 }
 
-.logo-container {
+.home-link {
   gap: 0.25em;
 }
 
@@ -97,8 +117,6 @@ ul {
   background-position: bottom;
   background-blend-mode: darken;
   padding: 3em 1.25em 0.1em;
-  /* height: 293px; */
-  color: white;
   margin: 1em auto 2em;
   width: 100%;
 }
