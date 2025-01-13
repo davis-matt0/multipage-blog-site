@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
@@ -13,15 +13,17 @@
     <title>My Learning Journal | Home</title>
   </head>
   <body>
-    <header class="header">
-      <img
-        src="./img/logo.png"
-        alt="speech bubble with phone inside/site logo"
-        class="logo"
-      />
-      <h3 class="title">My learning journal</h3>
+    <header class="header flex-container">
+      <div class="logo-container flex-container">
+        <img
+          src="./img/logo.png"
+          alt="speech bubble with phone inside/site logo"
+          class="logo"
+        />
+        <h3 class="title">My learning journal</h3>
+      </div>
       <nav class="nav">
-        <ul class="navbar">
+        <ul class="navbar flex-container">
           <li class="nav-item">Home</li>
           <li class="nav-item">About Me</li>
         </ul>
@@ -41,11 +43,13 @@
       </section>
       <section class="blog-posts">
         <div class="blog-post">
-          <img
-            src="./img/desk-day.png"
-            alt="a coder's laptop sitting on a desk during the daytime"
-            class="post-img"
-          />
+          <div class="img-container">
+            <img
+              src="./img/desk-day.png"
+              alt="a coder's laptop sitting on a desk during the daytime"
+              class="post-img"
+            />
+          </div>
           <time datetime="2022-07-23" class="post-date">July 23, 2022</time>
           <h2 class="post-title">Blog one</h2>
           <p class="post-preview">
@@ -55,11 +59,13 @@
           </p>
         </div>
         <div class="blog-post">
-          <img
-            src="./img/lightbulb.png"
-            alt="a person's hand holding a lightbulb"
-            class="post-img"
-          />
+          <div class="img-container">
+            <img
+              src="./img/lightbulb.png"
+              alt="a person's hand holding a lightbulb"
+              class="post-img cropped"
+            />
+          </div>
           <time datetime="2022-07-23" class="post-date">July 23, 2022</time>
           <h2 class="post-title">Blog two</h2>
           <p class="post-preview">
@@ -69,11 +75,13 @@
           </p>
         </div>
         <div class="blog-post">
-          <img
-            src="./img/cafe.png"
-            alt="laptop on a wooden table"
-            class="post-img"
-          />
+          <div class="img-container">
+            <img
+              src="./img/cafe.png"
+              alt="laptop on a wooden table"
+              class="post-img cropped"
+            />
+          </div>
           <time datetime="2022-07-23" class="post-date">July 23, 2022</time>
           <h2 class="post-title">Blog three</h2>
           <p class="post-preview">

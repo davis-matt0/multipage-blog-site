@@ -12,3 +12,52 @@ body {
   margin: 0;
   font-family: "Source Sans 3", sans-serif;
 }
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.846rem;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+.logo-container {
+  gap: 0.25em;
+}
+
+ul {
+  gap: 2em;
+  list-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.post-img {
+  display: block;
+  width: 374px;
+  max-width: 374px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.cropped {
+  height: 232px;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+}
