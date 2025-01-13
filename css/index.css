@@ -57,6 +57,10 @@ li,
   margin-top: 0;
 }
 
+.post-date {
+  font-size: 0.875rem;
+}
+
 .post-title {
   margin: 0;
 }
@@ -91,7 +95,6 @@ li,
 
 header {
   justify-content: space-between;
-  padding: 0 1em;
 }
 
 .home-link {
@@ -121,12 +124,15 @@ ul {
   width: 100%;
 }
 
-section {
+header,
+section,
+.article {
   width: 90%;
   margin: auto;
 }
 
-.post-img {
+.post-img,
+.main-post-img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -142,4 +148,24 @@ footer {
   color: white;
   text-align: center;
   padding: 1.5em;
+  margin-top: 3em;
+}
+
+.article {
+  margin-top: 2em;
+}
+
+.article-date {
+  margin-bottom: 1em;
+}
+
+.main-post-img {
+  object-position: center;
+  filter: brightness(70%);
+  margin: 2.5em 0;
+}
+
+.recent-posts {
+  text-align: center;
+  margin-top: 2.5em;
 }
