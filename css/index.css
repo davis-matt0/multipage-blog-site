@@ -37,6 +37,33 @@ li,
   margin-top: 0;
 }
 
+.post-title {
+  margin: 0;
+}
+
+.post-preview {
+  margin: 0.5em 0 2em 0;
+}
+
+.view-more-link {
+  display: block;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 2.5em 0;
+}
+
+.footer-title {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin-top: 0;
+  font-weight: 300;
+}
+
 .flex-container {
   display: flex;
   align-items: center;
@@ -85,9 +112,16 @@ section {
   display: block;
   width: 100%;
   object-fit: cover;
-  margin: 0 auto;
+  margin: 0 auto 0.75em auto;
 }
 
 .cropped {
   height: 232px;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
 }
