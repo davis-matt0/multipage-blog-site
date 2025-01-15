@@ -209,6 +209,14 @@ footer {
     display: block;
   }
 
+  header,
+  section,
+  .article,
+  .about-me {
+    max-width: 1085px;
+    margin: auto;
+  }
+
   .logo {
     width: 34.25px;
     height: 34.25px;
@@ -274,9 +282,8 @@ footer {
 
   .smaller-width,
   .article-body {
-    width: 100%;
+    width: 90%;
     margin: auto;
-    padding: 0 4.5em;
   }
 
   .main-post-img {
@@ -286,5 +293,24 @@ footer {
   .recent-posts {
     font-size: 1.5rem;
     margin-top: 3.5em;
+  }
+
+  .about-me-intro {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .about-me-heading {
+    font-size: 2.25rem;
+    max-width: 800px;
+  }
+
+  .about-me-preview {
+    max-width: 750px;
+  }
+
+  .about-me-body-heading {
+    margin-bottom: 0;
   }
 }
